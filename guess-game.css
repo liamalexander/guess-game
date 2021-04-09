@@ -1,0 +1,155 @@
+body {
+    margin: 10px;
+    background-image: url("https://media.istockphoto.com/photos/blue-tennis-court-sport-background-picture-id895972476?k=6&m=895972476&s=612x612&w=0&h=zc6boZ63AdDO0VeyGb9k-m63PqBzSBeaFJx0S2RFh8w=");
+    /* background-image: url("https://lh3.googleusercontent.com/proxy/uwmcy-k3_nA1dwsW59ylBWAPqprDWd5mN1CDEiw5kIiUORgACTEEANfTVlHvJx-D1R90gQaLB5XIZj-D0yQlrEhoaXqOfMavrkUTgmtOfqT4YvyBh-2YQuRL5RCuk9mEfarhqWMJKXpV"); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.highscore {
+    display: grid;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+#new-game {
+    margin: auto;
+    justify-content: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;   
+}
+
+.container-heading {
+    display: grid;
+}
+
+.heading {
+    display: grid;
+    justify-content: center;
+    font-size: 70px;
+    font-family: cursive;
+    margin: auto;
+    color: white;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.previous-ball {
+    display: grid;
+    /* background-color: yellow; */
+    background: linear-gradient(to top left, yellow, #7dd56f);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 2;
+    font-size: 15px;
+    justify-self: center;
+    justify-content: center;
+    margin-top: 45px;
+    align-items: center;
+    border: 2px solid gray;
+}
+
+.ball-0 {
+    /* background-color: greenyellow; */
+    background: linear-gradient(to top left, yellow, #7dd56f);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    border: 2px solid gray;
+    font-weight: bolder;
+}
+
+.ball-1 {
+    /* background-color: greenyellow; */
+    background: linear-gradient(to top left, yellow, #7dd56f);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+    justify-self: center;
+    display: grid;
+    justify-content: center;
+    border: 2px solid gray;
+    font-weight: bolder;
+}
+
+.ball-1-wrong {
+        /* background-color: greenyellow; */
+        background: linear-gradient(to top left, yellow, crimson);
+        border-radius: 50%;
+        height: 100px;
+        width: 100px;
+        text-align: center;
+        align-items: center;
+        font-size: 50px;
+        justify-self: center;
+        display: grid;
+        justify-content: center;
+        border: 2px solid gray;
+        font-weight: bolder;
+}
+
+.guess-btns {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#higher {
+    display: grid;
+    margin: 10px auto;
+    width: 200px;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+#lower {
+    display: grid;
+    margin: 10px auto;
+    width: 200px;
+    align-items: center;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.score {
+    display: grid;
+    margin: 10px auto;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+.message {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
