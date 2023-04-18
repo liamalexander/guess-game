@@ -22,7 +22,7 @@ lowerBtn.disabled = true;
 lastBall.style.visibility = "hidden";
 
 const incorrectAnswer = function () {
-    messageDisplay.textContent = `Incorrect...You lose! 😭`;
+    messageDisplay.textContent = `Unforced error!...You lose! 😭 \n`;
     higherBtn.disabled = true;
     lowerBtn.disabled = true;
     ball1.textContent = newNumber;
@@ -30,7 +30,7 @@ const incorrectAnswer = function () {
     if (currentScore > highscore) {
         highscore = currentScore;
         highscoreDisplay.textContent = `Highscore: ${highscore}`;
-        messageDisplay.textContent += ` New Highscore! 🏆`;
+        messageDisplay.textContent += ` \n New Highscore! 🏆`;
     };
 };
 
@@ -41,7 +41,7 @@ const correctAnswer = function () {
     ball0.textContent = currentNumber;
     currentScore ++;
     scoreDisplay.textContent = `Score: ${currentScore}`;
-    messageDisplay.textContent = "Correct! ✔"
+    messageDisplay.textContent = "Winner! ✔"
 };
 
 const newGame = function () {
